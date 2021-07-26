@@ -1,5 +1,5 @@
 
-/* å…¨ä½“ */
+/* Ã¥â€¦Â¨Ã¤Â½â€œ */
 
 html{
     height:100%
@@ -60,7 +60,7 @@ a {
    text-decoration: none;
 }
 
-/* ã‚µã‚¤ãƒ‰ */
+/* Ã£â€šÂµÃ£â€šÂ¤Ã£Æ’â€° */
 
 .side .side-inner{
     top: 0px;
@@ -111,7 +111,7 @@ a {
     }
 }
 
-/* ãƒ¡ã‚¤ãƒ³ */
+/* Ã£Æ’Â¡Ã£â€šÂ¤Ã£Æ’Â³ */
 .main .main-header{
     padding: 20px;
     border-bottom: 1px solid #eef;}
@@ -123,7 +123,7 @@ a {
     font-weight: bold;
 }
 
-/*  ãƒ›ãƒ¼ãƒ Â   */
+/*  Ã£Æ’â€ºÃ£Æ’Â¼Ã£Æ’Â Ã‚Â   */
 
 .home .tweet-post{
     display: flex;
@@ -239,7 +239,7 @@ a {
 
 
 /*
-ä¼šå“¡ç™»éŒ²ï¼ˆãƒ­ã‚°ã‚¤ãƒ³ç”»é¢ï¼‰
+Ã¤Â¼Å¡Ã¥â€œÂ¡Ã§â„¢Â»Ã©Å’Â²Ã¯Â¼Ë†Ã£Æ’Â­Ã£â€šÂ°Ã£â€šÂ¤Ã£Æ’Â³Ã§â€Â»Ã©ÂÂ¢Ã¯Â¼â€°
 ***/
 body.signup{
     display: flex;
@@ -278,7 +278,7 @@ body.signup{
     color: #fff;
 }
 
-/* ユーザー　*****/
+/* ãƒ¦ãƒ¼ã‚¶ãƒ¼ã€€*****/
 
 .profile .profile-area{
     padding: 25px;
@@ -318,4 +318,40 @@ body.signup{
     font-size: 16px;
     margin-right: 30px;
     color: #778;
+}
+
+/* 検索 */
+
+.search .search-area{
+    display: flex;
+    padding: 15px;
+}
+.search .search-area input{
+    width: 70%;
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+/* 通知 */
+.notification .notification-list .no-result{}
+.notification .notification-list .notification-item{
+    padding: 10px;
+    border-bottom: 1px solid rgb(235,238,240);
+}
+.notification .notification-list .notification-item .user{
+    width: 70px;
+    padding: 5px 15px 10px 10px;
+}
+.notification .notification-list .notification-item .user img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(235,238,240);
+}
+.notification .notification-list .notification-item .content{
+    width: 100%;
+}
+.notification .notification-list .notification-item .content p{
+    font-size: 16px;
+    padding: 8px 0 0 0;
+    margin-bottom: 8px;
 }
