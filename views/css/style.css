@@ -1,5 +1,5 @@
 
-/* Ã¥â€¦Â¨Ã¤Â½â€œ */
+/* 全体 */
 
 html{
     height:100%
@@ -60,7 +60,11 @@ a {
    text-decoration: none;
 }
 
-/* Ã£â€šÂµÃ£â€šÂ¤Ã£Æ’â€° */
+.text-sm{
+    font-size: 0.7rem;
+}
+
+/* サイド */
 
 .side .side-inner{
     top: 0px;
@@ -111,7 +115,7 @@ a {
     }
 }
 
-/* Ã£Æ’Â¡Ã£â€šÂ¤Ã£Æ’Â³ */
+/* メイン */
 .main .main-header{
     padding: 20px;
     border-bottom: 1px solid #eef;}
@@ -123,7 +127,7 @@ a {
     font-weight: bold;
 }
 
-/*  Ã£Æ’â€ºÃ£Æ’Â¼Ã£Æ’Â Ã‚Â   */
+/*  ホーム   */
 
 .home .tweet-post{
     display: flex;
@@ -238,9 +242,7 @@ a {
 }
 
 
-/*
-Ã¤Â¼Å¡Ã¥â€œÂ¡Ã§â„¢Â»Ã©Å’Â²Ã¯Â¼Ë†Ã£Æ’Â­Ã£â€šÂ°Ã£â€šÂ¤Ã£Æ’Â³Ã§â€Â»Ã©ÂÂ¢Ã¯Â¼â€°
-***/
+/*** 会員登録（ログイン共用）***/
 body.signup{
     display: flex;
     align-items: center;
@@ -278,7 +280,7 @@ body.signup{
     color: #fff;
 }
 
-/* ãƒ¦ãƒ¼ã‚¶ãƒ¼ã€€*****/
+/* ユーザー *****/
 
 .profile .profile-area{
     padding: 25px;
@@ -333,7 +335,9 @@ body.signup{
 }
 
 /* 通知 */
-.notification .notification-list .no-result{}
+.notification .notification-list .no-result{
+    padding: 20px;
+}
 .notification .notification-list .notification-item{
     padding: 10px;
     border-bottom: 1px solid rgb(235,238,240);

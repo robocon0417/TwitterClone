@@ -26,8 +26,6 @@ function buildImagePath(string $name = null, string $type)
  * @param string $datetime 日時
  * @return string
  */
-
-
 function convertToDayTimeAgo(string $datetime)
 {
     $unix = strtotime($datetime);   
