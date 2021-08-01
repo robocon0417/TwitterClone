@@ -24,7 +24,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         saveUserSession($user);
 
        // ホーム画面へ遷移
-        header('Location: ' . HOME_URL . 'Controllers/home.php');
+        header('Location: ' . HOME_URL . 'Controllers/post.php');
         exit;
     } else {
         // ログイン失敗
