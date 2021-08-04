@@ -14,3 +14,4 @@ deleteUserSession();
 // ログイン画面に遷移
 header('Location: ' . HOME_URL . 'Controllers/sign-in.php');
 exit;
+

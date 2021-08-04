@@ -1,7 +1,7 @@
 <?php
-/////////////////////////////////////
-//ホームコントローラー
-/////////////////////////////////////
+///////////////////////////////////////
+// サーチコントローラー
+///////////////////////////////////////
 
 //設定を読み込み
 include_once '../config.php';
@@ -19,11 +19,18 @@ if (!$user) {
     exit;
 }
 
+// 検索キーワードを取得
+$keyword = null;
+if(isset($_GET['keyword'])){
+    $keyword = $_GET['keyword'];
+}
+
 // 表示用の変数
 $view_user = $user;
+$view_keyword = $keyword;
 
 // ツイート一覧
-$view_tweets = findTweets($user);
+$view_tweets = findTweets($user , $keyword);
 
 // 画面表示
-include_once '../Views/home.php';
+include_once '../Views/search.php';

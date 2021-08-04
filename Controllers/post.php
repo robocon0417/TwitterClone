@@ -15,9 +15,9 @@ include_once '../Models/tweets.php';
 $user = getUserSession();
 if (!$user) {
     // ログインしていない
-    header('Location:' . HOME_URL . 'Controllers/sign-in.php'); 
-    exit;  
- }
+    header('Location:' . HOME_URL . 'Controllers/sign-in.php');
+    exit;
+}
 
 //  ツイートがある場合
 if (isset($_POST['body'])) {
@@ -33,9 +33,9 @@ if (isset($_POST['body'])) {
     ];
 
     //  つぶやき投稿
-    if(createTweet($data)){
+    if (createTweet($data)) {
         // ホーム画面に遷移
-        header('Location' . HOME_URL . 'Controllers/home.php');
+        header('Location: ' . HOME_URL . 'Controllers/home.php');
         exit;
     }
 }
