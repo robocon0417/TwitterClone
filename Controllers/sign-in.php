@@ -37,4 +37,3 @@ $view_try_login_result = $try_login_result;
 
 //画面表示
 include_once '../Views/sign-in.php';
-
